@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ASERIALCOM_ASerialComBPLibrary_generated_h
 
-#define FID_Bicycle_Project_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h_29_INCLASS \
+#define FID_Unreal_Projects_SweetProject_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h_29_INCLASS \
 private: \
 	static void StaticRegisterNativesUASerialComBPLibrary(); \
 	friend struct Z_Construct_UClass_UASerialComBPLibrary_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(UASerialComBPLibrary)
 
 
-#define FID_Bicycle_Project_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h_29_STANDARD_CONSTRUCTORS \
+#define FID_Unreal_Projects_SweetProject_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h_29_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UASerialComBPLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UASerialComBPLibrary) \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~UASerialComBPLibrary();
 
 
-#define FID_Bicycle_Project_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h_26_PROLOG
-#define FID_Bicycle_Project_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h_29_GENERATED_BODY_LEGACY \
+#define FID_Unreal_Projects_SweetProject_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h_26_PROLOG
+#define FID_Unreal_Projects_SweetProject_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h_29_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Bicycle_Project_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h_29_INCLASS \
-	FID_Bicycle_Project_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h_29_STANDARD_CONSTRUCTORS \
+	FID_Unreal_Projects_SweetProject_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h_29_INCLASS \
+	FID_Unreal_Projects_SweetProject_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h_29_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +50,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ASERIALCOM_API UClass* StaticClass<class UASerialComBPLibrary>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Bicycle_Project_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h
+#define CURRENT_FILE_ID FID_Unreal_Projects_SweetProject_Plugins_ASerialCom_Source_ASerialCom_Public_ASerialComBPLibrary_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
