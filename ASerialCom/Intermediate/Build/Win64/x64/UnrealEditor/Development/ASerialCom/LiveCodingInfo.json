@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ASerialCom.cpp.obj": [
+			"ASerialCom.init.gen.cpp.obj",
+			"ASerialComBPLibrary.gen.cpp.obj",
+			"ASerialLibControllerWin.gen.cpp.obj",
+			"ASerialPacket.gen.cpp.obj",
+			"ASerialCom.cpp.obj",
+			"ASerialComBPLibrary.cpp.obj",
+			"ASerialPacket.cpp.obj",
+			"ASerialLibControllerWin.cpp.obj",
+			"WindowsSerial.cpp.obj"
+		]
+	}
+}
