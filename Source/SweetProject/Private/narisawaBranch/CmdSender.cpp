@@ -6,7 +6,7 @@
 // Sets default values
 ACmdSender::ACmdSender()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 }
@@ -15,7 +15,7 @@ ACmdSender::ACmdSender()
 void ACmdSender::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
@@ -25,20 +25,19 @@ void ACmdSender::Tick(float DeltaTime)
 
 }
 
-void ACmdSender::SendCmd_Cali(UASerial_lib_Controller_Win* device_)
+void ACmdSender::SendCmd_LED(UASerialLibControllerWin* device_)
 {
 	if (device_)
 	{
-		device_->WriteData(Calibration_);
+		device_->WriteData(LED_);
 	}
 }
 
-int32 ACmdSender::SendCmd_Euler(UASerial_lib_Controller_Win* device_)
+int32 ACmdSender::SendCmd_Quater(UASerialLibControllerWin* device_)
 {
 	if (device_)
 	{
-		int32 Result = device_->WriteData(EulerCmd_);
-		//int32 Result = device_->WriteData(0x01);
+		int32 Result = device_->WriteData(QuaterCmd_);
 		return Result;
 	}
 	else
@@ -47,11 +46,11 @@ int32 ACmdSender::SendCmd_Euler(UASerial_lib_Controller_Win* device_)
 	}
 }
 
-int32 ACmdSender::SendCmd_Quater(UASerial_lib_Controller_Win* device_)
+int32 ACmdSender::SendCmd_Ac(UASerialLibControllerWin* device_)
 {
 	if (device_)
 	{
-		int32 Result = device_->WriteData(QuaternionCmd_);
+		int32 Result = device_->WriteData(AcCmd_);
 		return Result;
 	}
 	else
