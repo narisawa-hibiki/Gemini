@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ueproject\\tp_vrproject\\plugins\\katvruniversalsdk_ue5.4\\intermediate\\build\\win64\\unrealeditor\\inc\\katvruniversalsdk\\uht\\katvruniversalsdk.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ueproject\\tp_vrproject\\intermediate\\build\\win64\\x64\\tp_vrprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "d:\\ueproject\\tp_vrproject\\plugins\\katvruniversalsdk_ue5.4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\katvruniversalsdk\\definitions.katvruniversalsdk.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

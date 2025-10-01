@@ -1,0 +1,7 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\KATVRUniversalSDK\\Module.KATVRUniversalSDK.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\KATVRUniversalSDK\\KATVRUniversalSDK.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\KATVRUniversalSDK\\KATVRUniversalSDKBPLibrary.cpp.obj"
+	]
+}
