@@ -1,7 +1,0 @@
-{
-	"OutputFiles": [
-		"..\\..\\..\\x64\\UnrealGame\\Development\\KATVRUniversalSDK\\Module.KATVRUniversalSDK.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Development\\KATVRUniversalSDK\\KATVRUniversalSDK.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Development\\KATVRUniversalSDK\\KATVRUniversalSDKBPLibrary.cpp.obj"
-	]
-}
