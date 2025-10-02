@@ -1,18 +1,11 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
-
-
-#include "Component/KATMoverComponent.h"
+﻿#include "Component/KATMoverComponent.h"
 #include "KATSDKWarpper.h"
 #include "Camera/CameraComponent.h"
 
-// Sets default values for this component's properties
+
 UKATMoverComponent::UKATMoverComponent()
 {
-	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
-	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
 }
 
 // Called when the game starts
@@ -20,8 +13,6 @@ void UKATMoverComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
-	
 	KATDataHandler = new KATSDKWarpper();
 	VRCamera = Cast<UCameraComponent>(GetOwner()->FindComponentByClass(UCameraComponent::StaticClass()));
 }
@@ -32,7 +23,6 @@ void UKATMoverComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
 	HandleKATVRInput(DeltaTime);
 }
 
@@ -95,18 +85,5 @@ void UKATMoverComponent::RotateCharacterByFQuat(FQuat targetQuat, float duration
 	SetRelativeRotation(VROffsetRotator);
 
 	PreRotator = CurrentRotator;
-}
-
-void UKATMoverComponent::DoCalibration()
-{
-	if (KATDataHandler != nullptr)
-	{
-		KATDataHandler->Calibrate(nullptr);
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, TEXT("KATVR Calibration"));
-	}
-	else
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, TEXT("KATDataHandler is not initialized"));
-	}
 }
 

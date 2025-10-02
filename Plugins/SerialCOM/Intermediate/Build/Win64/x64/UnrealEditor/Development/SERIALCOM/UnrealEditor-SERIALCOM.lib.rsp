@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SERIALCOM.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UEProject\TP_VRProject\Intermediate\Build\Win64\x64\TP_VRProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"D:\UEProject\TP_VRProject\Plugins\SerialCOM\Intermediate\Build\Win64\x64\UnrealEditor\Development\SERIALCOM\Module.SERIALCOM.cpp.obj"
+"D:\UEProject\TP_VRProject\Plugins\SerialCOM\Intermediate\Build\Win64\x64\UnrealEditor\Development\SERIALCOM\Default.rc2.res"
+/OUT:"D:\UEProject\TP_VRProject\Plugins\SerialCOM\Intermediate\Build\Win64\x64\UnrealEditor\Development\SERIALCOM\UnrealEditor-SERIALCOM.lib"
